@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+    color:white;
+    font-weight: bold;
+}
+.navbar{
+    width: 100%;
+    background-color:black;
+    opacity:90%;
+    overflow:visible;
+
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style:none;
+    
+}
+li{
+    float:left;
+    margin-left:10px;
+    
+}
+.logo img{
+    position:relative;
+   
+    
+    
+
+}
+nav a{
+    width:100px;
+    display:inline-block;
+    padding:20px 10px;
+    text-decoration:none;
+    font-family: Arial;
+    color:#f2f2f2;
+    text-align:center;
+    font-weight:bold;
+    font-size:larger;
+    
+    
+
+}
+
+.btn-search {
+    background:black;
+    border-radius: 0;
+    color:white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1c1c1c;
+    font-weight: bold;
+    
+    
+  }
+  .btn-search:link, .btn-search:visited {
+    color:black;
+  }
+  .btn-search:active, .btn-search:hover {
+    background: white;
+    color:black;
+
+  }
